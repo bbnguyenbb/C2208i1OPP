@@ -1,4 +1,5 @@
 ﻿namespace OPP;
+
 internal class Student
 {
     //vừa là field vừa là auto property
