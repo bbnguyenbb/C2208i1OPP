@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace InterfaceCSharp;
+﻿namespace InterfaceCSharp;
 public class SomeFile : IBinaryFile, ITextFile
 {
     //thực thi các phương thức của interface

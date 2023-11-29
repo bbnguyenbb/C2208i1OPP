@@ -21,6 +21,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalsPoly", "CalsPoly\CalsPo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceCSharp", "InterfaceCSharp\InterfaceCSharp.csproj", "{BDB27C1D-19D7-44FA-8268-F67694F07D1B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ListCSharp", "ListCSharp", "{566563D5-E6FF-4470-9221-1C2BCE6A54B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListandLinq", "ListandLinq\ListandLinq.csproj", "{4B109C69-83FD-4A13-B10B-E0A59B58B85A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,10 @@ Global
 		{BDB27C1D-19D7-44FA-8268-F67694F07D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDB27C1D-19D7-44FA-8268-F67694F07D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDB27C1D-19D7-44FA-8268-F67694F07D1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B109C69-83FD-4A13-B10B-E0A59B58B85A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B109C69-83FD-4A13-B10B-E0A59B58B85A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B109C69-83FD-4A13-B10B-E0A59B58B85A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B109C69-83FD-4A13-B10B-E0A59B58B85A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +69,7 @@ Global
 		{2F4CE0F1-EE6C-44BC-98FD-10C4829A6FF0} = {7A8CE07B-681B-4FF3-B91C-E0E98173151D}
 		{AF70BE80-717E-43F0-86D3-8F87582A7745} = {30D209E9-4E53-4C65-B03F-EF489906D39C}
 		{BDB27C1D-19D7-44FA-8268-F67694F07D1B} = {30D209E9-4E53-4C65-B03F-EF489906D39C}
+		{4B109C69-83FD-4A13-B10B-E0A59B58B85A} = {566563D5-E6FF-4470-9221-1C2BCE6A54B7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A7AABA48-F54B-46A9-BCCF-3F7CD00A1875}
