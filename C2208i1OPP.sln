@@ -7,17 +7,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OPP", "OPP\OPP.csproj", "{6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstraction", "Abstraction", "{76DD450F-4427-434B-A2D0-53BF0F77ECD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClass", "AbstractClass\AbstractClass.csproj", "{1944C693-184F-4C87-91B5-44A922C0AD7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClass", "AbstractClass\AbstractClass.csproj", "{1944C693-184F-4C87-91B5-44A922C0AD7A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Encapsulation Access modifier", "Encapsulation Access modifier", "{7A8CE07B-681B-4FF3-B91C-E0E98173151D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModify", "AccessModify\AccessModify.csproj", "{B6D98AD3-C318-49DC-9677-8F94BE63E62E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessModify", "AccessModify\AccessModify.csproj", "{B6D98AD3-C318-49DC-9677-8F94BE63E62E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifyCont", "AccessModifyCont\AccessModifyCont.csproj", "{2F4CE0F1-EE6C-44BC-98FD-10C4829A6FF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessModifyCont", "AccessModifyCont\AccessModifyCont.csproj", "{2F4CE0F1-EE6C-44BC-98FD-10C4829A6FF0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Polymorphism", "Polymorphism", "{30D209E9-4E53-4C65-B03F-EF489906D39C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalsPoly", "CalsPoly\CalsPoly.csproj", "{AF70BE80-717E-43F0-86D3-8F87582A7745}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalsPoly", "CalsPoly\CalsPoly.csproj", "{AF70BE80-717E-43F0-86D3-8F87582A7745}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceCSharp", "InterfaceCSharp\InterfaceCSharp.csproj", "{BDB27C1D-19D7-44FA-8268-F67694F07D1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{AF70BE80-717E-43F0-86D3-8F87582A7745}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF70BE80-717E-43F0-86D3-8F87582A7745}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF70BE80-717E-43F0-86D3-8F87582A7745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDB27C1D-19D7-44FA-8268-F67694F07D1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB27C1D-19D7-44FA-8268-F67694F07D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB27C1D-19D7-44FA-8268-F67694F07D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB27C1D-19D7-44FA-8268-F67694F07D1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +60,7 @@ Global
 		{B6D98AD3-C318-49DC-9677-8F94BE63E62E} = {7A8CE07B-681B-4FF3-B91C-E0E98173151D}
 		{2F4CE0F1-EE6C-44BC-98FD-10C4829A6FF0} = {7A8CE07B-681B-4FF3-B91C-E0E98173151D}
 		{AF70BE80-717E-43F0-86D3-8F87582A7745} = {30D209E9-4E53-4C65-B03F-EF489906D39C}
+		{BDB27C1D-19D7-44FA-8268-F67694F07D1B} = {30D209E9-4E53-4C65-B03F-EF489906D39C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A7AABA48-F54B-46A9-BCCF-3F7CD00A1875}
