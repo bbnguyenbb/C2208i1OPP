@@ -1,9 +1,10 @@
 ﻿using Exer1.Entity;
+using Exer1.IService;
 using Exer1.Validate;
 
 namespace Exer1.Dao;
 
-public class ListProduct
+public class ListProduct : IDao
 {
     public List<Product> ListPro { get; set; } = [];
 
@@ -33,5 +34,35 @@ public class ListProduct
         string id = Valid<string>.CheckCR("vui lòng nhập id cần xóa: ");
         //ListPro.RemoveAll(p => p.ProId.ToLower() == id.ToLower());
         ListPro.RemoveAll(p => string.Compare(p.ProId, id, true) == 0);
+    }
+
+    public void FindProduct()
+    {
+        string id = Valid<string>.CheckCR("vui lòng nhập id cần tìm: ");
+
+        var findPro = ListPro.SingleOrDefault(p=>string.Compare(p.ProId, id, true) == 0);
+
+        if(findPro is not null)
+        {
+            Console.WriteLine(findPro);
+        }
+    }
+
+    public void SortProduct()
+    {
+        //==========================
+        //sql server
+        //ListPro.OrderBy  <=> ListPro.OrderByDescending()
+        var list = ListPro.OrderBy(p=>p.ProId);
+        list.ToList().ForEach(Console.WriteLine);
+
+        //======================
+        //quick sort
+        //ListPro.Sort() <=> ListPro.Reverse()
+        ListPro.Sort(
+           (p1, p2) => p1.ProId.CompareTo(p2.ProId)
+        );
+
+
     }
 }
